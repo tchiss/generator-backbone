@@ -330,7 +330,7 @@ module.exports = function (grunt) {
             'images/{,*/}*.{webp,gif}',
             'styles/fonts/{,*/}*.*',
 <% if (sassBootstrap) { -%>
-            'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*.*'
+            'bower_components/bootstrap-sass/assets/fonts/bootstrap/*.*'
 <% } -%>
           ]
         }, {
@@ -399,7 +399,7 @@ module.exports = function (grunt) {
             '<%%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
             '<%%= yeoman.dist %>/styles/fonts/{,*/}*.*',
 <% if (sassBootstrap) { -%>
-            'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*.*'
+            'bower_components/bootstrap-sass/assets/fonts/bootstrap/*.*'
 <% } -%>
           ]
         }
